@@ -132,14 +132,17 @@ body {
     gap: 1rem;
 }
 
-.about_img img {
-    position: relative;
+ .about_img img {
+    /* position: relative; */
+    margin-left:175px;
+    margin-top: 40px;
     padding-bottom: 20%;
     max-width: 400px;
     height: auto;
     width: 100%;
     border-radius: 8px;
 }
+
 
 .about_text h2 {
     font-size: 60px;
