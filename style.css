@@ -176,13 +176,17 @@ body {
     color: aqua;
 }
 
-/* Container1 styles */
 .container1 {
     width: calc(50% - 20px); /* Adjusted width and margin for responsiveness */
     height: auto; /* Changed height to auto for responsiveness */
     padding: 30px; /* Adjusted padding for responsiveness */
     margin: 20px 0; /* Adjusted margin for responsiveness */
     float: none; /* Remove floating for responsiveness */
+}
+
+/* Adjust padding for circles inside container1 */
+.container1 .circle {
+    padding: 20px; /* Add padding to each circle */
 }
 
 /* Heading1 styles */
