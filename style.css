@@ -184,19 +184,6 @@ body {
     float: none; /* Remove floating for responsiveness */
 }
 
-/* For desktop screens */
-.container1 {
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  
-  /* For mobile screens */
-  @media only screen and (max-width: 768px) {
-    .container1 {
-      max-width: 90%; /* Adjust width for smaller screens */
-      padding: 0 30px; /* Adjust padding for smaller screens */
-    }
-  }
   
 
 /* Heading1 styles */
