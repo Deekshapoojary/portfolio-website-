@@ -5,3 +5,10 @@ var typed = new typed(".text",{
     backDelay:1000,
     loop:true
 });
+
+window.addEventListener('load', () => {
+    const bars = document.querySelectorAll('.progress-line span');
+    bars.forEach(bar => {
+        bar.style.animationPlayState = 'running';
+    });
+});
